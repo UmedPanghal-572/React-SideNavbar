@@ -19,7 +19,7 @@ const Header = () => {
     }, [nav]);
 
     return (
-        <div className={`relative flex  min-h-screen transition-all duration-500 ease-in-out  ${nav ? "max-md:bg-slate-200" : ""} `}  >
+        <div className="relative flex  min-h-screen transition-all duration-500 ease-in-out"  >
             {/* overlay div  */}
             <div>
                 {
